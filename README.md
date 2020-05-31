@@ -64,7 +64,7 @@ We suggest you do one of these two things:
     api("/login", {
       method: "POST",
       body: {
-        email: "kelley@gillz.com",
+        email: "bart@gillz.nl",
         password: "abcdef"
       }
     })
@@ -177,7 +177,7 @@ We use JSON Web Tokens for authentication. Some endpoints are authenticated, whi
 
 - HTTPie:
 
-  `http -v POST https://gillz-coders-network.herokuapp.com/signup name="Kelley van Evert" email=kelley@gillz.com password=abcd`
+  `http -v POST https://gillz-coders-network.herokuapp.com/signup name="Kelley van Evert" email=bart@gillz.nl password=abcd`
 
 - JavaScript:
 
@@ -186,7 +186,7 @@ We use JSON Web Tokens for authentication. Some endpoints are authenticated, whi
     method: "POST",
     body: {
       name: "Kelley van Evert",
-      email: "kelley@gillz.com",
+      email: "bart@gillz.nl",
       password: "abcd"
     }
   })
