@@ -206,7 +206,7 @@ We use JSON Web Tokens for authentication. Some endpoints are authenticated, whi
 
 - HTTPie:
 
-  `http -v POST https://gillz-coders-network.herokuapp.com/login email=kelley@gillz.com password=abcd`
+  `http -v POST https://gillz-coders-network.herokuapp.com/login email=bart@gillz.nl password=abcd`
 
 - JavaScript:
 
@@ -214,7 +214,7 @@ We use JSON Web Tokens for authentication. Some endpoints are authenticated, whi
   api("/login", {
     method: "POST",
     body: {
-      email: "kelley@gillz.com",
+      email: "bart@gillz.nl",
       password: "abcd"
     }
   })
